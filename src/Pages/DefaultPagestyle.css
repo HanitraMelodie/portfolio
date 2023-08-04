@@ -1,71 +1,41 @@
-/*branding: color theme //#A6c2CE - bright blue // #9C8F96 - light brown //#EBC57C - light yellow //#6B799E - darker blue */
 
-.Question-header {
-    text-align: center;
+body{
+    background:  #1E2761;
     color: white;
-    background-color: #a6c2ce;
-    border-radius: 30px;
-    font-size: 20px;
-    padding:1px 0px 1px 0px;
-    margin:0px 0px 1px 1px;
-}
-
-#ButtonMood{
-    display: block;
     text-align: center;
-    color:#ffff;
-    background:#6B799E;
-    padding: 0px 0px;
-    margin: 0px auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
     font-size: 20px;
-    border: 5px solid #6B799E;
-    max-width: 600px; 
+    text-align: left;
+}
+.page{
+    background-color: #408EC6;
 }
 
-#icon {
-    height:100px;
-    float: left;
-    opacity: 0.5;
-
+.Card{
+    margin:10px;
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+}
+img{
+    padding: 5px;
+    width: 150px;
+}
+.certificationlink{
+    text-decoration: none;
+    color:white;
+    text-align: center;
 }
 
-p{
-    text-align: center;  
-}
-.selection-div {
-    padding: 20px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-
-}
-.feedback-div {
-    display:flex;
-    justify-content: center;
-    margin: 10px 0px 0px 100px;
-
+.aboutmelink{
+    color:white;
+    text-decoration: underline;
 }
 
-
-.footer-div {
-
-    margin:-300px 0px 0px 0px;
+#profilepicture{
+    border-radius: 50%;
+    width: 300px;
 }
-
-@media only screen and (max-width: 768px) {
-    .Question-header {
-      
-        font-size: 10px;
-     
-    }
-    #icon {
-        height:40px;
-        float: left;
-        opacity: 0.5;
-    
-    }
-    .footer-div {
-        margin:-300px auto;
-    }
-  
-    }

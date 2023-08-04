@@ -1,27 +1,38 @@
 ul {
     padding: 0;
+    text-align: center;
   }
-  
+  nav{
+    background:  #7A2048;
+    padding: 0.5px;
+  }
   li {
     display: inline-block;
-    background: #ffff;
-    color: #6b799e;
-    border-radius: 50px;
-    transition: all 200ms ease-in-out;
-    margin: 0px 0px 0px 100px;
+    background:  #7A2048;
+    transition: all 2000ms ease-in-out;
     padding: 10px 10px 10px 10px;
     font-size: 20px;
+    text-align: center;
+    border:none;
+
   }
   
   li:hover {
-    color: #fff;
-    background: #ebc57c;
-    text-decoration: none;
+   color: #7A2048;
+    text-decoration: underline;
   }
   
-  a:link {
+  a {
     text-decoration: none;
-    color: #6b799e;
+     border:none;
+
+  }
+  
+  a:visited {
+    color:white;
+    text-decoration: underline;
+    border:none;
+    border-style : solid ;
   }
   #menuicon{
     width:30px;

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import menuicon from "./images/menuicon.png";
 const FullNavbar = () => (
+  
   <nav className="navbar">
     <ul>
       <li>
@@ -22,6 +23,7 @@ const FullNavbar = () => (
       </li>
     </ul>
   </nav>
+
 );
 
 const PortfolioMenu = () => {

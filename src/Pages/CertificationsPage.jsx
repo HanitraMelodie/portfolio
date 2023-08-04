@@ -4,7 +4,7 @@ import Certificateintro from "./pdfs/Certificateintro.pdf";
 function CertificationsPage() {
   return (
     <>
-      <h1 className="Question-header">Certifications</h1>
+      <h1 classname="page">Certifications</h1>
       <table>
         <thead>
           <tr>
@@ -14,59 +14,50 @@ function CertificationsPage() {
         </thead>
         <tbody>
           <tr>
-            <td>Master of Science in Computer Software and Technics</td>
-            <td>Complete</td>
+            <td>Master of Science in Computer Software Technics</td>
+            <td  className="certificationlink">Complete</td>
           </tr>
           <tr>
             <td>Full stack nanodegree master</td>
-            <td>
-              {" "}
-              <a href={CertificateFullstack} target="_blank" rel="noreferrer">
-                Complete
+          <a href={CertificateFullstack} target="_blank" rel="noreferrer"><td  className="certificationlink">Certified</td>
               </a>
-            </td>
+           
           </tr>
           <tr>
             <td>Introduction to Web development</td>
-            <td>
-              <a href={Certificateintro} target="_blank" rel="noreferrer">
-                Complete
+          
+              <a  href={Certificateintro} target="_blank" rel="noreferrer">
+              <td  className="certificationlink">Certified</td>
               </a>
-            </td>
           </tr>
           <tr>
             <td>SheCodesbasic certification</td>
             <td>
-              <a
+              <a className="certificationlink"
                 href="https://www.shecodes.io/certificates/91455d2cc8f740b7bc71de594ba6ca59"
                 target="_blank"
                 rel="noreferrer"
-              >
-                Complete
+              >Certified
               </a>
             </td>
           </tr>
           <tr>
             <td>SheCodesPlus certification</td>
             <td>
-              <a
+              <a className="certificationlink"
                 href="https://www.shecodes.io/certificates/5ee386e73a66b061ecfe48c03d45ca6c"
                 target="_blank"
                 rel="noreferrer"
-              >
-                Complete
+              >Certified
               </a>
             </td>
           </tr>
           <tr>
-            <td>Free bootcamp Responsive Web design certification</td>
-            <td>
-              {" "}
-              <a href="https://www.freecodecamp.org/certification/Hanitra/responsive-web-design">
-                Complete
+            <td>Free bootcamp Responsive Web design</td>
+          <a href="https://www.freecodecamp.org/certification/Hanitra/responsive-web-design">
+              <td className="certificationlink">Certified</td>
               </a>
-            </td>
-          </tr>
+              </tr>
         </tbody>
       </table>
     </>
